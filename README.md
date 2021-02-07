@@ -23,5 +23,12 @@ This is a user interface specification document for the user management screen f
    - User Role Option Box
    - User Status Check Box
    
-   ###### New User Button
-   
+>  ### Upper Bar
+>>  #### New User Button
+>>   It is a button that clears the screen.
+>
+>>  #### Disabled User Display Check Box
+>>    This box works for controlling the list. If it is checked, Display screen is going to show only users that status is enabled.
+>
+>>  #### Save User Button
+>     This button is for saving the user information that written on the screen. It uploads the user data which filled on boxes to database.
