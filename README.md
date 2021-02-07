@@ -31,4 +31,5 @@ This is a user interface specification document for the user management screen f
 >>    This box works for controlling the list. If it is checked, Display screen is going to show only users that status is enabled.
 >
 >>  #### Save User Button
->     This button is for saving the user information that written on the screen. It uploads the user data which filled on boxes to database.
+>>    This button is for saving the user information that written on the screen. 
+>>    It uploads the user data which filled on boxes to database.
