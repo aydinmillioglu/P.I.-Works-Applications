@@ -4,8 +4,7 @@ This is a user interface specification document for the user management screen f
 
 ![User Management Screen](/PIWorks.png)
 
-Screen Parts
----------------
+## Screen Parts
 1. Upper Bar
    - New User Button
    - Disabled User Display Check Box
@@ -24,4 +23,5 @@ Screen Parts
    - User Role Option Box
    - User Status Check Box
    
-   ######
+   ###### New User Button
+   
