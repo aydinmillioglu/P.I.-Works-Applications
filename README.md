@@ -4,6 +4,8 @@ This is a user interface specification document for the user management screen f
 
 ![User Management Screen](/UMS.png)
 
+
+
 ## Screen Parts
 1. Upper Bar
    - New User Button
@@ -22,8 +24,10 @@ This is a user interface specification document for the user management screen f
    - Email Text Box
    - User Role Option Box
    - User Status Check Box
-   
->  ### Upper Bar
+
+
+
+>  ###  Upper Bar
 >  -------------
 >  This bar is on the top of the screen and have three actions. New User button and Disabled User Display Check Box are on the left side and Save User Button is on the right side.
 >
@@ -39,12 +43,21 @@ This is a user interface specification document for the user management screen f
 
 >  ###  User List
 >  --------------
->  This list is on the left half of the screen. It is used for getting and viewing the list from database. That list includes in order of ID, User Name, Email and Status. Each list element have a sort button on the name of itself.
+>  This list is on the left half of the screen. It is used for getting and viewing the list from database by wanted sorting options. That list includes in order of ID, User Name, Email and Status. Each list element have a sort button on the name of itself.
 >
 >>  #### ID Sorting Button
 >>  That button sort the data list by ID. It has two options. On first click it will sort from smaller to bigger and on second click it will sort from bigger to smaller because of ID variable is integer.
 >
->> #### Email Sorting Button
+>>  #### Email Sorting Button
 >>  That button sorts data list by Emails. It has two options too. On first click it will sort from A to Z and on second click it will sort from Z to A because of Email variable is string.
 >>
+>>  #### User Status Sorting Button
+>>  That button sorts data list by User Status. It has two options too. On first click it will sort from enabled to disabled and on second click it will sort from disabled to enabled because of User Status variable is boolean.
 >>
+>>  #### Display User List
+>>  That part is below the sorting buttons. It gets data from database and shows by wanted sorting options.
+
+>  ###  New User Information Screen
+>  --------------------------------
+>  This part is on the right side of the screen. It includes the input parts for new user which username text box, display name text box, phone text box, mail text box user role option box and user status check box.
+>>  Username Text Box
