@@ -52,12 +52,30 @@ This is a user interface specification document for the user management screen f
 >>  That button sorts data list by Emails. It has two options too. On first click it will sort from A to Z and on second click it will sort from Z to A because of Email variable is string.
 >>
 >>  #### User Status Sorting Button
->>  That button sorts data list by User Status. It has two options too. On first click it will sort from enabled to disabled and on second click it will sort from disabled to enabled because of User Status variable is boolean.
+>>  That button sorts data list by User Status. It has two options too. On first click it will sort from enabled to disabled and on second click it will sort from disabled to enabled because of User Status variable is boolean which is 1 for enabled and 0 for disabled.
 >>
 >>  #### Display User List
 >>  That part is below the sorting buttons. It gets data from database and shows by wanted sorting options.
 
 >  ###  New User Information Screen
 >  --------------------------------
->  This part is on the right side of the screen. It includes the input parts for new user which username text box, display name text box, phone text box, mail text box user role option box and user status check box.
->>  Username Text Box
+>  This part is on the right side of the screen. It is used for inserting new user data. It includes the input parts for new user which username text box, display name text box, phone text box, mail text box user role option box and user status check box.
+>
+>> #### Username Text Box
+>>  This box is a string input for username.
+> 
+>> #### Display Name Text Box
+>>  This box is a string input for display name.
+> 
+>> #### Phone Text Box
+>>  This box is a string input for phone number.
+> 
+>> #### Email Text Box
+>>  This box is a string input for email.
+> 
+>> #### User Role Option Box
+>>  This box is an input for user role. It has three options which are Guest, Admin, SuperAdmin. 
+> 
+>> #### User Status Check Box
+>>  This check box is an input for user status labeled 'Enabled'. If its checked, New user's status is going to be enabled.
+> 
