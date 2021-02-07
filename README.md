@@ -2,7 +2,7 @@
 ## Explanation
 This is a user interface specification document for the user management screen for PI Works job application. The Screen has two purposes. First one is add new user data to database and second one is sorting and observing the user list from data base. 
 
-![User Management Screen](/User Management Screen.png)
+![User Management Screen](/UMS.png)
 
 ## Screen Parts
 1. Upper Bar
@@ -42,4 +42,9 @@ This is a user interface specification document for the user management screen f
 >  This list is on the left half of the screen. It is used for getting and viewing the list from database. That list includes in order of ID, User Name, Email and Status. Each list element have a sort button on the name of itself.
 >
 >>  #### ID Sorting Button
->>  That button sort the data list. ID variable is an integer so 
+>>  That button sort the data list by ID. It has two options. On first click it will sort from smaller to bigger and on second click it will sort from bigger to smaller because of ID variable is integer.
+>
+>> #### Email Sorting Button
+>>  That button sorts data list by Emails. It has two options too. On first click it will sort from A to Z and on second click it will sort from Z to A because of Email variable is string.
+>>
+>>
