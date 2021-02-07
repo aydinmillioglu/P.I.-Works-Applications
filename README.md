@@ -1,6 +1,6 @@
 # P.I.-Works-Applications
 ## Explanation
-This is a user interface specification document for the user management screen for PI Works job application.
+This is a user interface specification document for the user management screen for PI Works job application. The Screen has two purposes. First one is add new user data to database and second one is sorting and observing the user list from data base. 
 
 ![User Management Screen](/PIWorks.png)
 
@@ -24,6 +24,9 @@ This is a user interface specification document for the user management screen f
    - User Status Check Box
    
 >  ### Upper Bar
+>  -------------
+>  This bar is on the top of the screen and have three actions.
+>
 >>  #### New User Button
 >>   It is a button that clears the screen.
 >
@@ -33,3 +36,9 @@ This is a user interface specification document for the user management screen f
 >>  #### Save User Button
 >>    This button is for saving the user information that written on the screen. 
 >>    It uploads the user data which filled on boxes to database.
+
+>  ###  User List
+>  --------------
+>  This list is on the left half of the screen. It is used for getting and viewing the list from database. That list includes in order of ID, User Name, Email and Status.
+>
+>>  #### ID Sorting Button
