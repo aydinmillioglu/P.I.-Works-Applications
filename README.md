@@ -25,7 +25,7 @@ This is a user interface specification document for the user management screen f
    
 >  ### Upper Bar
 >  -------------
->  This bar is on the top of the screen and have three actions.
+>  This bar is on the top of the screen and have three actions. New User button and Disabled User Display Check Box are on the left side and Save User Button is on the right side.
 >
 >>  #### New User Button
 >>   It is a button that clears the screen.
@@ -39,6 +39,7 @@ This is a user interface specification document for the user management screen f
 
 >  ###  User List
 >  --------------
->  This list is on the left half of the screen. It is used for getting and viewing the list from database. That list includes in order of ID, User Name, Email and Status.
+>  This list is on the left half of the screen. It is used for getting and viewing the list from database. That list includes in order of ID, User Name, Email and Status. Each list element have a sort button on the name of itself.
 >
 >>  #### ID Sorting Button
+>>  That button sort the data list. ID variable is an integer so 
